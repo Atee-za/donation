@@ -13,4 +13,7 @@ public class Helper {
     public static boolean isValidPassword(String p){
         return isValid(p) && p.length() > 4;
     }
+    public static boolean isValidEmail(String p){
+        return isValid(p) && p.matches("^([\\w-\\.]+){1,64}@([\\w&&[^_]]+){2,255}.[a-z]{2,}$");
+    }
 }
