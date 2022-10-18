@@ -19,7 +19,6 @@ public class DonationApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(DonationApplication.class, args);
 	}
-//Authorization: Basic am9obkBleGFtcGxlLmNvbTphYmMxMjM=
 	@Bean
 	public CorsFilter corsFilter(){
 		CorsConfiguration corsConfiguration = new CorsConfiguration();

@@ -1,4 +1,4 @@
-package za.ac.cput.donation.Security;
+package za.ac.cput.donation.security;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
